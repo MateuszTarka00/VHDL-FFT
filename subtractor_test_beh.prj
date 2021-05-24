@@ -1,0 +1,2 @@
+vhdl work "subtractor.vhd"
+vhdl work "subtractor_test.vhd"

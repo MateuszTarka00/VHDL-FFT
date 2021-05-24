@@ -1,0 +1,29 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/FFT_test_isim_beh.exe" -prj "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/FFT_test_beh.prj" "work.FFT_test" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/subtractor.vhd" into library work
+Parsing VHDL file "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/multiplier.vhd" into library work
+Parsing VHDL file "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/Adder.vhd" into library work
+Parsing VHDL file "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/Butterfly.vhd" into library work
+Parsing VHDL file "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/FFT.vhd" into library work
+Parsing VHDL file "C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/FFT_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture multiplier_arch of entity multiplier [multiplier_default]
+Compiling architecture adder_arch of entity adder [adder_default]
+Compiling architecture subtractor_arch of entity subtractor [subtractor_default]
+Compiling architecture butterfly_arch of entity Butterfly [butterfly_default]
+Compiling architecture fft_arch of entity FFT [fft_default]
+Compiling architecture behavior of entity fft_test
+Time Resolution for simulation is 1ps.
+Compiled 16 VHDL Units
+Built simulation executable C:/studia/Vlsi_projekty/Fast_Fourier_Transfirm/FFT_test_isim_beh.exe
+Fuse Memory Usage: 38364 KB
+Fuse CPU Usage: 468 ms

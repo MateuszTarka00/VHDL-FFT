@@ -1,0 +1,6 @@
+vhdl work "subtractor.vhd"
+vhdl work "multiplier.vhd"
+vhdl work "Adder.vhd"
+vhdl work "Butterfly.vhd"
+vhdl work "FFT.vhd"
+vhdl work "FFT_test.vhd"
